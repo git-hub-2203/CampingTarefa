@@ -1,144 +1,85 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <title>Camping Life</title>
+    <title>Camping Life | Início</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="site-header">
-        <a class="logo-link" href="#home">
-            <img src="logo.png" alt="Camping Life">
-        </a>
-
+        <a class="logo-link" href="index.html"><img src="logo.png" alt="Camping Life"><span>Camping Life</span></a>
         <nav class="main-nav">
-            <a href="#home"><i class="fa-solid fa-house"></i> Início</a>
-            <a href="#products"><i class="fa-solid fa-campground"></i> Produtos</a>
-            <a href="#about"><i class="fa-solid fa-circle-info"></i> Sobre</a>
-            <a href="#contact"><i class="fa-solid fa-envelope"></i> Contato</a>
+            <a class="active" href="index.html"><i class="fa-solid fa-house"></i>Início</a>
+            <a href="produtos.html"><i class="fa-solid fa-campground"></i>Produtos</a>
+            <a href="contato.html"><i class="fa-solid fa-envelope"></i>Contato</a>
         </nav>
     </header>
 
     <main>
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <h1>Levando ideias para a vida no <span>camping</span></h1>
-                <a class="whatsapp-hero" href="https://wa.me/559284066727" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i> Fale pelo WhatsApp
-                </a>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Viva o camping com mais <span>conforto</span></h1>
+                    <p>A Camping Life reúne barracas, mochilas, iluminação, garrafas térmicas e kits essenciais para
+                        quem quer explorar a natureza com segurança, praticidade e estilo.</p>
+                    <div class="actions">
+                        <a class="btn" href="produtos.html"><i class="fa-solid fa-bag-shopping"></i>Ver produtos</a>
+                        <a class="btn dark" href="contato.html"><i class="fa-brands fa-whatsapp"></i>Falar conosco</a>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="products section" id="products">
+        <section class="section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Prepare-se para sua próxima aventura</h2>
-                    <p>Conheça equipamentos de camping selecionados pela durabilidade, conforto e facilidade de uso ao
-                        ar livre.</p>
+                    <h2>Uma loja pensada para quem não fica parado</h2>
+                    <p>Selecionamos produtos para acampamentos, trilhas, viagens longas e experiências ao ar livre,
+                        priorizando resistência, utilidade e ótimo custo-benefício.</p>
                 </div>
-
-                <div class="product-grid">
-                    <article class="product-card">
-                        <img src="photo1.png" alt="Barracas de camping">
-                        <div class="product-content">
-                            <h3>Barracas de camping</h3>
-                            <p>Barracas resistentes, impermeáveis e fáceis de montar para diferentes climas.</p>
-                            <strong>R$ 129,99</strong>
-                            <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="photo2.jpeg" alt="Fogareiros portáteis">
-                        <div class="product-content">
-                            <h3>Fogareiros portáteis</h3>
-                            <p>Fogareiros práticos e eficientes para preparar refeições durante a viagem.</p>
-                            <strong>R$ 89,99</strong>
-                            <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="photo3.jpeg" alt="Mochilas de trilha">
-                        <div class="product-content">
-                            <h3>Mochilas de trilha</h3>
-                            <p>Mochilas leves, espaçosas e ergonômicas para caminhadas mais longas.</p>
-                            <strong>R$ 159,99</strong>
-                            <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="photo4.jpeg" alt="Lanternas LED">
-                        <div class="product-content">
-                            <h3>Lanternas LED</h3>
-                            <p>Lanternas recarregáveis e potentes para iluminar o acampamento à noite.</p>
-                            <strong>R$ 49,99</strong>
-                            <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="photo1.png" alt="Caiaques infláveis">
-                        <div class="product-content">
-                            <h3>Caiaques infláveis</h3>
-                            <p>Caiaques compactos e resistentes para aventuras na água e pescarias.</p>
-                            <strong>R$ 299,99</strong>
-                            <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="photo2.jpeg" alt="Lanternas de cabeça">
-                        <div class="product-content">
-                            <h3>Lanternas de cabeça</h3>
-                            <p>Iluminação prática, com bateria durável e diferentes modos de brilho.</p>
-                            <strong>R$ 34,99</strong>
-                            <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
-                        </div>
-                    </article>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-tent"></i>
+                        <h3>Estrutura completa</h3>
+                        <p>Barracas, sacos de dormir e acessórios para montar uma base confortável em diferentes tipos
+                            de terreno.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-route"></i>
+                        <h3>Mobilidade na trilha</h3>
+                        <p>Mochilas ergonômicas, lanternas e itens compactos para carregar apenas o necessário sem
+                            perder eficiência.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-shield-heart"></i>
+                        <h3>Segurança em primeiro lugar</h3>
+                        <p>Kits de primeiros socorros, iluminação confiável e equipamentos resistentes para reduzir
+                            imprevistos na aventura.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="about section" id="about">
+        <section class="about-band">
             <div class="container about-layout">
-                <div class="about-text">
-                    <h2>Sobre a Camping Life</h2>
-                    <p>Somos apaixonados por levar os melhores equipamentos de camping para quem ama aventuras ao ar
-                        livre. Fundada em 2010, a Camping Life cresceu de uma pequena loja local para uma marca
-                        confiável no setor.</p>
-                    <p>De iniciantes a aventureiros experientes, temos tudo o que você precisa para a próxima viagem.
-                        Nossa equipe testa cada produto em condições reais para garantir durabilidade e desempenho.</p>
+                <div class="about-panel">
+                    <h2>Mais natureza, menos complicação</h2>
+                    <p>A Camping Life nasceu com a proposta de facilitar a preparação de campistas iniciantes e
+                        aventureiros experientes. A curadoria da loja valoriza itens duráveis, funcionais e simples de
+                        usar.</p>
+                    <p>O objetivo é entregar uma experiência de compra direta: produto claro, preço visível, contato
+                        rápido e uma seleção coerente para quem quer sair da rotina.</p>
+                    <div class="stats">
+                        <div class="stat"><strong>15+</strong><span>anos de história</span></div>
+                        <div class="stat"><strong>24h</strong><span>prazo médio de resposta</span></div>
+                        <div class="stat"><strong>12</strong><span>produtos em destaque</span></div>
+                    </div>
                 </div>
-
-                <div class="about-brand">
-                    <img src="logo.png" alt="Camping Life">
-                </div>
-            </div>
-        </section>
-
-        <section class="contact section" id="contact">
-            <div class="container contact-layout">
-                <div class="section-header">
-                    <h2>Fale conosco</h2>
-                    <p>Tem alguma dúvida? Entre em contato com a nossa equipe e responderemos em até 24 horas.</p>
-                </div>
-
-                <form class="contact-form">
-                    <input type="text" placeholder="Seu nome" required>
-                    <input type="email" placeholder="Seu e-mail" required>
-                    <textarea rows="5" placeholder="Sua mensagem" required></textarea>
-                    <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i> Enviar mensagem</button>
-                </form>
-
-                <div class="contact-info">
-                    <p><i class="fa-solid fa-location-dot"></i> Rua da Aventura, 123, Cidade Aventura</p>
-                    <p><i class="fa-solid fa-phone"></i> +55 (11) 1234-5678</p>
-                    <p><i class="fa-solid fa-envelope"></i> contato@campinglife.com</p>
+                <div class="logo-panel">
+                    <img src="logo.png" alt="Logo Camping Life">
                 </div>
             </div>
         </section>
@@ -146,25 +87,19 @@
 
     <footer class="site-footer">
         <div class="container footer-layout">
-            <div>
-                <h3>Camping Life</h3>
-                <p>Levando ideias para a vida no camping desde 2010.</p>
+            <div class="footer-brand"><img src="logo.png" alt="Camping Life">
+                <div>
+                    <h3>Camping Life</h3>
+                    <p>Levando ideias para a vida no camping.</p>
+                </div>
             </div>
-
-            <nav>
-                <a href="#home"><i class="fa-solid fa-house"></i> Início</a>
-                <a href="#products"><i class="fa-solid fa-campground"></i> Produtos</a>
-                <a href="#about"><i class="fa-solid fa-circle-info"></i> Sobre</a>
-                <a href="#contact"><i class="fa-solid fa-envelope"></i> Contato</a>
-            </nav>
+            <nav class="footer-nav"><a href="index.html">Início</a><a href="produtos.html">Produtos</a><a
+                    href="contato.html">Contato</a></nav>
         </div>
-
-        <p class="copyright">&copy; 2025 Camping Life. Todos os direitos reservados.</p>
+        <p class="copyright">&copy; 2026 Camping Life. Todos os direitos reservados.</p>
     </footer>
-
-    <a class="whatsapp-fixed" href="https://wa.me/559284066727" target="_blank" aria-label="Fale pelo WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    <a class="whatsapp-fixed" href="https://wa.me/559284066727" target="_blank" aria-label="Fale pelo WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
 </body>
 
 </html>
